@@ -256,7 +256,8 @@ class CiphertextMessage(Message):
 
 if __name__ == '__main__':
 
-    plaintext = PlaintextMessage('qwtsa aneli yvelaze didi ylea', 15)
+    plaintext = PlaintextMessage('dog', 15)
+
     print('Actual Output:', plaintext.get_message_text_encrypted())
 
 
